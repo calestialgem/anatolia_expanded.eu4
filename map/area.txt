@@ -2398,7 +2398,8 @@ kartli_kakheti_area = {
 }
 
 armenia_area = {
-	#5 # Anatolia Expanded
+	#5
+	# Anatolia Expanded
 	420
 	419
 	2202
@@ -2440,51 +2441,55 @@ dagestan_area = {
 # Anatolia, The Levant & Mesopotamia   #
 ########################################
 rum_area = {
-	#5 #Anatolia Expanded
+	#5
+	# Anatolia Expanded
 	329
 	1846
 	2300
 	4315
-	4806
+	4958
 }
 
 trebizond_area = {
-	#Anatolia Expanded
-	4808
-	4814
-	4815
-	4816
+	# Anatolia Expanded
+	4960
+	4966
+	4967
+	4968
 	330
 }
 
 erzurum_area = {
-	#3	Erzurum and Trebizond #Anatolia Expanded
+	#3	Erzurum and Trebizond
+	# Anatolia Expanded
 	331
 	2305
-	4817
-	4818
-	4819
+	4969
+	4970
+	4971
 }
 
 izmit_area = {
-	#Anatolia Expanded
-	4793
-	4794
-	4795
+	# Anatolia Expanded
+	4945
+	4946
+	4947
 	316
 }
 
 hudavendigar_area = {
-	#3 #Anatolia Expanded
+	#3
+	# Anatolia Expanded
 	317
 	2296
-	4792
-	4796
+	4944
+	4948
 	322
 }
 
 germiyan_area = {
-	#4 #Anatolia Expanded
+	#4
+	# Anatolia Expanded
 	color = {
 		234
 		145
@@ -2493,8 +2498,8 @@ germiyan_area = {
 	1848
 	4308
 	4311
-	4797
-	4798
+	4949
+	4950
 }
 
 aydin_area = {
@@ -2512,7 +2517,8 @@ aydin_area = {
 }
 
 ankara_area = {
-	#3 #Anatolia Expanded
+	#3
+	# Anatolia Expanded
 	color = {
 		57
 		154
@@ -2521,7 +2527,7 @@ ankara_area = {
 	326
 	4312
 	4313
-	4799
+	4951
 	4314
 }
 
@@ -2535,38 +2541,41 @@ aegean_archipelago_area = {
 }
 
 bolu_area = {
-	#Anatolia Expanded
-	4802
-	4803
-	4804
-	4805
+	# Anatolia Expanded
+	4954
+	4955
+	4956
+	4957
 	2299
 }
 
 kastamonu_area = {
-	#4 #Anatolia Expanded
+	#4
+	# Anatolia Expanded
 	325
 	328
 	2304
-	4807
+	4959
 }
 
 karaman_area = {
-	#4 #Anatolia Expanded
+	#4
+	# Anatolia Expanded
 	323
 	324
 	4307
 }
 
 eastern_karaman_area = {
-	#Anatolia Expanded
-	4800
-	4801
+	# Anatolia Expanded
+	4952
+	4953
 	2301
 }
 
 cukurova_area = {
-	#3 #Anatolia Expanded
+	#3
+	# Anatolia Expanded
 	color = {
 		50
 		177
@@ -2575,12 +2584,13 @@ cukurova_area = {
 	321
 	327
 	2302
-	4810
-	4820
+	4962
+	4972
 }
 
 aleppo_area = {
-	#4 #Anatolia Expanded
+	#4
+	# Anatolia Expanded
 	377
 	1849
 	407
@@ -2609,7 +2619,8 @@ palestine_area = {
 }
 
 dulkadir_area = {
-	# 4 #Anatolia Expanded
+	# 4
+	# Anatolia Expanded
 	color = {
 		184
 		54
@@ -2621,8 +2632,8 @@ dulkadir_area = {
 }
 
 ayntab_area = {
-	#Anatolia Expanded
-	4809
+	# Anatolia Expanded
+	4961
 	4298
 	2313
 }
@@ -2653,24 +2664,25 @@ luristan_area = {
 }
 
 north_kurdistan_area = {
-	#5 #Anatolia Expanded
+	#5
+	# Anatolia Expanded
 	418
 	2308
 	4292
-	4811
+	4963
 }
 
 south_kurdistan_area = {
-	#Anatolia Expanded
-	4812
-	4821
+	# Anatolia Expanded
+	4964
+	4973
 	4296
 	4295
 }
 
 western_armenia_area = {
-	#Anatolia Expanded
-	4813
+	# Anatolia Expanded
+	4965
 	2306
 	2307
 	4302
@@ -2699,7 +2711,7 @@ shahrizor_area = {
 }
 
 al_jazira_area = {
-	#5 #Anatolia Expanded
+	#5 # Anatolia Expanded
 	color = {
 		92
 		200
