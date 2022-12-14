@@ -1,5 +1,5 @@
 # AE: Add the new provinces to old areas and create new areas to accomodate the
-# rest. Carry Van (4302) into Anatolia.
+# rest. Carry Agri (4302) into Anatolia.
 # A province can only belong to one area!
 #Sea Areas:
 #No restriction on size.

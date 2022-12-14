@@ -1,7 +1,7 @@
 101 = "Cenova"
 112 = "Venedik"
 122 = "Otranto"
-134 = "Beç" #Modern Turkish Name: Viyana
+134 = "Beç"#Modern Turkish Name: Viyana
 139 = "Hersek"
 140 = "Bosna"
 141 = "Semendire"
@@ -15,11 +15,11 @@
 153 = "Budin"
 154 = "Uyvar"
 155 = "Göle"
-156 = "Timishvar" #Modern Turkish Name: Temesvar
+156 = "Timishvar"#Modern Turkish Name: Temesvar
 157 = "Varad"
 159 = "Silistre"
 161 = "Bükres"
-163 = "Girid" #Modern Turkish Name: Girit
+163 = "Girid"#Modern Turkish Name: Girit
 164 = "Naksa Berre"
 223 = "Girnata"
 226 = "Cebelitarik"
@@ -30,12 +30,8 @@
 284 = "Kirim"
 285 = "Kefe"
 316 = "Kocaeli"
-
-
-
 320 = "Rodos"
 323 = "Konya"
-
 322 = "Kütahya"
 324 = "Karaman"
 325 = "Kastamonu"
@@ -45,7 +41,6 @@
 329 = "Sivas"
 330 = "Trabzon"
 331 = "Erzurum"
-
 333 = "Balear Adalari"
 334 = "Tanca"
 336 = "Tilimsan"
@@ -61,7 +56,7 @@
 361 = "Kahire"
 364 = "Gazze"
 368 = "Kanarya Adalari"
-377 = "Haleb" #Modern Turkish Name: Halep
+377 = "Haleb"#Modern Turkish Name: Halep
 378 = "Trablus"
 379 = "Kudus"
 380 = "El Karak"
@@ -75,7 +70,7 @@
 396 = "Bahreyn"
 407 = "Rakka"
 409 = "Kerbela"
-410 = "Bagdad" #Modern Turkish Name: Bagdat
+410 = "Bagdad"#Modern Turkish Name: Bagdat
 411 = "Musul"
 415 = "Sehrizor"
 416 = "Azerbaycan"
@@ -105,19 +100,11 @@
 1864 = "Kopan"
 1953 = "Debrecin"
 1954 = "Beçkerek"
-
 2204 = "Kars"
 2296 = "Biga"
-
-
 2299 = "Bolu"
-
 2301 = "Kayseri"
-
-
-
 2305 = "Erzincan"
-
 2348 = "Sakiz"
 2405 = "Bender"
 2447 = "Hunkala"
@@ -126,16 +113,14 @@
 3000 = "Nish"
 3001 = "Üsküp"
 3003 = "Egriboz"
-
 4125 = "Eger"
 4126 = "Segedin"
 4173 = "Sirem"
-4174 = "Ilbasan" #Modern Turkish Name: Elbasan
+4174 = "Ilbasan"#Modern Turkish Name: Elbasan
 4175 = "Iskodra"
 4239 = "Belgrad"
 4779 = "Gelibolu"
 4780 = "Ohri"
-
 # =================
 # Anatolia Expanded
 151 = "Istanbul"
@@ -159,6 +144,7 @@
 4295 = "Siirt"
 4298 = "Gaziantep"
 4303 = "Ardahan"
+4302 = "Agri"
 4310 = "Malatya"
 4311 = "Afyonkarahisar"
 4312 = "Eskisehir"
