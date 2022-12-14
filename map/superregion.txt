@@ -1,5 +1,5 @@
+# AE: Created Asia Minor Superregion and carried Anatolia into it.
 # A region can only belong to one super region.
-
 india_superregion = {
 	bengal_region
 	hindusthan_region
@@ -11,8 +11,8 @@ india_superregion = {
 east_indies_superregion = {
 	burma_region
 	malaya_region
-	moluccas_region	
-	indonesia_region	
+	moluccas_region
+	indonesia_region
 	indo_china_region
 }
 
@@ -27,10 +27,9 @@ china_superregion = {
 	south_china_region
 }
 
-europe_superregion = { #Western Europe
-
-	restrict_charter		# harder to get TC here.
-
+europe_superregion = {
+	#Western Europe
+	restrict_charter	# harder to get TC here.
 	france_region
 	iberia_region
 	italy_region
@@ -42,8 +41,7 @@ europe_superregion = { #Western Europe
 }
 
 eastern_europe_superregion = {
-	restrict_charter		# harder to get TC here.
-
+	restrict_charter	# harder to get TC here.
 	poland_region
 	baltic_region
 	russia_region
@@ -83,7 +81,8 @@ southern_africa_superregion = {
 	central_africa_region
 }
 
-south_america_superregion = { # amazonia
+south_america_superregion = {
+	# amazonia
 	brazil_region
 	colombia_region
 }
@@ -114,19 +113,14 @@ central_america_superregion = {
 }
 
 near_east_superregion = {
-
-	restrict_charter		# harder to get TC here.
-
-	#anatolia_region	# Anatolia Expanded
+	restrict_charter	# harder to get TC here.
 	mashriq_region
 	arabia_region
 	egypt_region
 }
 
 persia_superregion = {
-
-	restrict_charter		# harder to get TC here.
-
+	restrict_charter	# harder to get TC here.
 	khorasan_region
 	persia_region
 	caucasia_region
@@ -136,7 +130,6 @@ new_world_superregion = {
 }
 
 # Sea super regions are used by AI to plan naval bases (it wants at least one fleet in each it has non-home presence if possible).
-
 west_american_sea_superregion = {
 	north_east_pacific_region
 	south_east_pacific_region
@@ -165,7 +158,7 @@ west_african_sea_superregion = {
 
 east_african_sea_superregion = {
 	west_indian_ocean_region
-	arabian_sea_region 
+	arabian_sea_region
 }
 
 indian_pacific_sea_superregion = {
@@ -180,10 +173,9 @@ north_pacific_sea_superregion = {
 	north_west_pacific_region
 }
 
+#==================
 # Anatolia Expanded
 asia_minor_superregion = {
-	
-	restrict_charter		# harder to get TC here.
-
+	restrict_charter	# harder to get TC here.
 	anatolia_region	# Anatolia Expanded
 }

@@ -1,4 +1,4 @@
-# AE: Added new regions.
+# AE: Added new areas. Carried Aegean islands out of Anatolia.
 # A province can only belong to one region!
 # random_new_world_region is used for RNW. Must be first in this list.
 random_new_world_region = {
@@ -271,8 +271,7 @@ balkan_region = {
 		slavonia_area
 		#=================
 		#Anatolia Expanded
-		northern_macedonia_area
-		athens_area
+		aegean_archipelago_area
 	}
 }
 
@@ -349,7 +348,6 @@ anatolia_region = {
 		dulkadir_area
 		cukurova_area
 		ankara_area
-		aegean_archipelago_area
 		germiyan_area
 		#=================
 		#Anatolia Expanded
