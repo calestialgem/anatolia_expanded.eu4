@@ -1,3 +1,4 @@
+# AE: Replaced the historical units with the Ottoman ones.
 #Country Name: Please see filename.
 graphical_culture = muslimgfx
 color = {
@@ -17,9 +18,6 @@ historical_idea_groups = {
 	administrative_ideas
 }
 
-# AE: Replaced the original with the Ottoman historical units. Because if the
-# Seljuks come back to life after defeating Ottomans they would have a similar
-# army structure and culture.
 historical_units = {
 	ottoman_yaya
 	ottoman_musellem
