@@ -1,0 +1,12 @@
+Toplam Gelişim / İl Sayısı (Ortalama Gelişim)
+Total Development / Number of Provinces (Average Development)
+
+Mod'la (1.3 Sürümü / 1.3 Version) / With:
+	Türkler:	287 / 52 (5,519)
+	Anadolu:	474 / 85 (5,576)
+	Osmanlı:	339 / 59 (5,746)
+	
+Olmadan (1.30 EUIV Vanilla) / Without:
+	Türkler:	273 / 34 (8,029)
+	Anadolu:	395 / 48 (8,229)
+	Osmanlı:	325 / 42 (7,738)

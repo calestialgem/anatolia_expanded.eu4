@@ -1,0 +1,99 @@
+country_decisions = {
+
+	make_ankara_capital = {
+		potential = {
+			primary_culture = turkish
+			owns = 326
+			OR = {
+				NOT = { capital = 326 }
+				AND = {
+					capital = 326
+					NOT = { has_global_flag = ankara_founded }
+				}
+			}
+			NOT = { has_country_flag = relocated_capital_ankara }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 326		# Ankara
+				province_id = 4312		# Eskeshehir
+				province_id = 4313		# Kangiri
+				province_id = 4314		# Kirshehir
+				province_id = 4799		# Kirikkale
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { controlled_by = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			owns = 326		# Ankara
+			owns = 4312		# Eskeshehir
+			owns = 4313		# Kangiri
+			owns = 4314		# Kirshehir
+			owns = 4799		# Kirikkale
+			controls = 326		# Ankara
+			controls = 4312		# Eskeshehir
+			controls = 4313		# Kangiri
+			controls = 4314		# Kirshehir
+			controls = 4799		# Kirikkale		
+		}
+		effect = {
+			set_country_flag = relocated_capital_ankara
+			add_stability = 1
+			add_core = 326		# Ankara
+			add_core = 4312		# Eskeshehir
+			add_core = 4313		# Kangiri
+			add_core = 4314		# Kirshehir
+			add_core = 4799		# Kirikkale		
+			326 = {
+				move_capital_effect = yes
+				change_culture = turkish 
+				change_religion = ROOT
+			}
+			4312 = {
+				change_culture = turkish 
+				change_religion = ROOT
+			}
+			4313 = {
+				change_culture = turkish 
+				change_religion = ROOT
+			}
+			4314 = {
+				change_culture = turkish 
+				change_religion = ROOT
+			}
+			4799 = {
+				change_culture = turkish 
+				change_religion = ROOT
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = ankara_founded }
+				}
+				326 = {
+					add_base_tax = 5
+					add_base_production = 5
+					add_base_manpower = 5
+				}
+				set_global_flag = ankara_founded
+			}
+			anatolia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = TUR
+			}
+		}
+		do_not_core = 326		# Ankara
+		do_not_core = 4312		# Eskeshehir
+		do_not_core = 4313		# Kangiri
+		do_not_core = 4314		# Kirshehir
+		do_not_core = 4799		# Kirikkale
+	}
+}
