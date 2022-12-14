@@ -1,11 +1,15 @@
+# AE: All Turkish nations can use Ottoman decisions.
 country_decisions = {
-
 	make_constantinople_capital = {
 		potential = {
 			primary_culture = turkish
 			owns = 151
-			NOT = { capital = 151 }
-			NOT = { has_country_flag = relocated_capital_constantinople }
+			NOT = {
+				capital = 151
+			}
+			NOT = {
+				has_country_flag = relocated_capital_constantinople
+			}
 			normal_or_historical_nations = yes
 			OR = {
 				ai = no
@@ -15,11 +19,11 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			controls = 151
-			owns = 149		# Edirne
-			owns = 316		# Bithnyia
-			owns = 317		# Bursa
-			owns = 4790		# Tekirdag
-			owns = 4791		# Kirklareli			
+			owns = 149			# Edirne
+			owns = 316			# Bithnyia
+			owns = 317			# Bursa
+			owns = 4942			# Tekirdag
+			owns = 4951			# Kirklareli
 		}
 		effect = {
 			set_country_flag = relocated_capital_constantinople
@@ -27,13 +31,15 @@ country_decisions = {
 			add_core = 151
 			151 = {
 				move_capital_effect = yes
-				change_culture = turkish 
+				change_culture = turkish
 				change_religion = ROOT
 				rename_capital = Kostantiniyye
 			}
 			if = {
 				limit = {
-					NOT = { has_global_flag = constantinople_restored }
+					NOT = {
+						has_global_flag = constantinople_restored
+					}
 				}
 				151 = {
 					add_base_tax = 4
@@ -47,13 +53,14 @@ country_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-		do_not_core = 151 # Constantinople
+		do_not_core = 151		# Constantinople
 	}
-
 	provincial_system = {
 		potential = {
 			primary_culture = turkish
-			NOT = { has_country_modifier = the_provincial_system }
+			NOT = {
+				has_country_modifier = the_provincial_system
+			}
 			normal_or_historical_nations = yes
 			OR = {
 				ai = no
@@ -77,17 +84,24 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { mil_power = 100 }
+				NOT = {
+					mil_power = 100
+				}
 			}
 		}
 	}
-
 	devshirme_system = {
 		potential = {
 			has_reform = ottoman_government
-			NOT = { has_disaster = janissary_decadence }
-			NOT = { has_country_modifier = the_devshirme_system }
-			NOT = { has_country_flag = lapse_of_devshirme }
+			NOT = {
+				has_disaster = janissary_decadence
+			}
+			NOT = {
+				has_country_modifier = the_devshirme_system
+			}
+			NOT = {
+				has_country_flag = lapse_of_devshirme
+			}
 			normal_or_historical_nations = yes
 			OR = {
 				ai = no
@@ -105,11 +119,16 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { has_dlc = "Cradle of Civilization" }
+					NOT = {
+						has_dlc = "Cradle of Civilization"
+					}
 				}
 				custom_tooltip = janissary_event_tooltip_devs
 				hidden_effect = {
-					country_event = { id = flavor_tur.100 days = 4380 }
+					country_event = {
+						id = flavor_tur.100
+						days = 4380
+					}
 				}
 			}
 		}
@@ -117,12 +136,12 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { mil_power = 200 }
+				NOT = {
+					mil_power = 200
+				}
 			}
 		}
 	}
-
-
 	disband_the_janissaries = {
 		major = yes
 		potential = {
@@ -132,10 +151,16 @@ country_decisions = {
 		allow = {
 			has_disaster = janissary_decadence
 			if = {
-				limit = { has_dlc = "Cradle of Civilization" }
+				limit = {
+					has_dlc = "Cradle of Civilization"
+				}
 				OR = {
-					NOT = { janissary_percentage = 0.05 }
-					NOT = { num_of_janissaries = 3 }
+					NOT = {
+						janissary_percentage = 0.05
+					}
+					NOT = {
+						num_of_janissaries = 3
+					}
 				}
 			}
 		}
@@ -151,11 +176,12 @@ country_decisions = {
 				custom_tooltip = yoklama_effect_tooltip
 			}
 			end_disaster = janissary_decadence
-			country_event = { id = janissary_decadence.100 }
+			country_event = {
+				id = janissary_decadence.100
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
 }
