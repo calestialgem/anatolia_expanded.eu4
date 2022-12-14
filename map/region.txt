@@ -1,4 +1,5 @@
-# AE: Added new areas. Carried Aegean islands out of Anatolia.
+# AE: Added new areas. Carried Aegean islands out of Anatolia. Carried Samtskhe
+# into Anatolia.
 # A province can only belong to one region!
 # random_new_world_region is used for RNW. Must be first in this list.
 random_new_world_region = {
@@ -401,7 +402,6 @@ caucasia_region = {
 		armenia_area
 		dagestan_area
 		imereti_area
-		samtskhe_area
 		kartli_kakheti_area
 	}
 }
