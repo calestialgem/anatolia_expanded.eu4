@@ -2,8 +2,8 @@
 country_decisions = {
 	make_ankara_capital = {
 		potential = {
-			any_province = {
-				region = anatolia_region
+			anatolia_region = {
+				owned_by = ROOT
 			}
 			OR = {
 				NOT = {
@@ -28,6 +28,7 @@ country_decisions = {
 		}
 		allow = {
 			anatolia_region = {
+				type = all
 				owned_by = ROOT
 			}
 		}
