@@ -1,5 +1,6 @@
 # AE: Add the new provinces to old areas and create new areas to accomodate the
-# rest. Carry Agri (4302) into Anatolia.
+# rest. Carry Agri (4302) into Anatolia. Separate Thrace, create North Macedonia
+# to accomodate Gumulcine.
 # A province can only belong to one area!
 #Sea Areas:
 #No restriction on size.
@@ -2200,8 +2201,14 @@ macedonia_area = {
 	#5 (Macedonia)
 	148
 	1853
-	3001
 	4702
+	4705
+}
+
+northern_macedonia_area = {
+	# Anatolia Expanded
+	3001
+	4703
 	4780
 }
 
@@ -2225,11 +2232,12 @@ northern_greece_area = {
 
 thrace_area = {
 	#5
+	# Anatolia Expanded
 	149
 	151
-	1764
 	4779
-	4705
+	4942
+	4943
 }
 
 bulgaria_area = {
@@ -2238,13 +2246,13 @@ bulgaria_area = {
 	1765
 	2746
 	2750
-	4703
 }
 
 silistria_area = {
 	4704
 	4706
 	159
+	1764
 }
 
 wallachia_area = {
