@@ -272,6 +272,7 @@ balkan_region = {
 		slavonia_area
 		#=================
 		#Anatolia Expanded
+		aegean_archipelago_area
 		northern_macedonia_area
 	}
 }
