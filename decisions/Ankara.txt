@@ -19,20 +19,6 @@ country_decisions = {
 			NOT = {
 				has_country_flag = relocated_capital_ankara
 			}
-			OR = {
-				ai = no
-				capital = {
-					region = anatolia_region
-				}
-				NOT = {
-					development_in_provinces = {
-						value = 200
-						NOT = {
-							region = anatolia_region
-						}
-					}
-				}
-			}
 		}
 		provinces_to_highlight = {
 			region = anatolia_region
@@ -75,6 +61,20 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				development_in_provinces = {
+					value = 200
+					NOT = {
+						region = anatolia_region
+					}
+				}
+				capital = {
+					NOT = {
+						region = anatolia_region
+					}
+				}
+			}
 		}
 	}
 }
